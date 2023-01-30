@@ -1,0 +1,17 @@
+a {
+    font-size: 14px;
+    color: #fff;
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: #555858;
+    /* text-align: center; */
+    text-indent: 2em;
+    text-decoration: none;
+    line-height: 60px;
+}
+
+
+a:hover {
+    background-color: #ff6700;
+}

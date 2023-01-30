@@ -1,0 +1,14 @@
+a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    background-color: rgb(133, 123, 123, .5);
+    background-image: url(../static/tou.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    text-indent: 5em;
+}

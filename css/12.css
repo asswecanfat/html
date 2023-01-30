@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    background-color: pink;
+    font-size: 50px;
+    text-align: center;
+}
+
+.top {
+    /* width: 1500px; */
+    height: 100px;
+    line-height: 100px;
+}
+
+.banner {
+    width: 1000px;
+    height: 200px;
+    margin: 20px auto;
+    line-height: 200px;
+}
+
+.box1 {
+    width: 1000px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.box1>div {
+    float: left;
+    width: 246px;
+    height: 150px;
+    line-height: 150px;
+    margin-right: 5px;
+    background-color: black;
+}
+
+.box1>.last {
+    margin-right: 0px;
+}

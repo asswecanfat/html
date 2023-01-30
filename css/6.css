@@ -1,0 +1,43 @@
+div>a {
+    display: inline-block;
+    width: 120px;
+    height: 58px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    line-height: 53px;
+    text-align: center;
+    /* background-color: rgb(189, 16, 16, .3); */
+}
+
+.bg1 {
+    background: url(../static/bg5.png) no-repeat;
+}
+
+.bg1:hover {
+    background: url(../static/bg11.png) no-repeat;
+}
+
+.bg2 {
+    background: url(../static/bg2.png) no-repeat;
+}
+
+.bg2:hover {
+    background: url(../static/bg22.png) no-repeat;
+}
+
+.bg3 {
+    background: url(../static/bg3.png) no-repeat;
+}
+
+.bg3:hover {
+    background: url(../static/bg3.jpg) no-repeat;
+}
+
+.bg4 {
+    background: url(../static/bg4.png) no-repeat;
+}
+
+.bg4:hover {
+    background: url(../static/bg1.png) no-repeat;
+}

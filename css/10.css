@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 163px;
+    width: 248px;
+    /* background-color: pink; */
+    margin: 100px auto;
+    border: 1px solid #ccc;
+}
+
+.title {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 10px;
+
+}
+
+.box .body {
+    height: 200px;
+}
+
+.body a {
+    display: inline-block;
+    height: 26px;
+    width: 230px;
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    background-color: #fff;
+    line-height: 26px;
+    margin: 0px 0px 0px 10px;
+}
+
+.body a:hover {
+    text-decoration: underline;
+}

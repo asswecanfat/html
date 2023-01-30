@@ -1,0 +1,39 @@
+body>.list {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
+}
+
+body>.list>h3 {
+    float: left;
+    color: #00a4ff;
+    font-size: 16px;
+    line-height: 60px;
+    padding: 0 30px;
+}
+
+body>.list>.list ul {
+    float: left;
+}
+
+
+body>.list>.list li {
+    float: left;
+    line-height: 60px;
+}
+
+body>.list>.list a {
+    padding: 0px 30px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+}
+
+body>.list>a {
+    float: right;
+    line-height: 60px;
+    font-size: 14px;
+    color: #00a4ff;
+    padding-right: 30px;
+}

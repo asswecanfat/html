@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.bigbox {
+    height: 415px;
+    width: 700px;
+    margin: 100px auto;
+    background-color: #000;
+    text-align: center;
+
+    /* box-sizing: border-box; */
+}
+
+.box1 {
+    display: inline-block;
+    height: 415px;
+    width: 298px;
+    margin: 0px 10px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+}
+
+.img {
+    width: 100%;
+}
+
+.content {
+    height: 70px;
+    font-size: 14px;
+    padding: 0px 28px;
+    /* box-sizing: border-box; */
+    margin-top: 30px;
+}
+
+.userc {
+
+    padding: 0px 28px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b0b0b0;
+    /* box-sizing: border-box; */
+}
+
+.wu {
+    padding: 0px 28px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.wu .title {
+    display: inline-block;
+    font-weight: 400;
+}
+
+.wu .money {
+    color: orange;
+}
