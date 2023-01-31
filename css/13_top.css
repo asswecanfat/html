@@ -9,6 +9,14 @@
 
 }
 
+.centerBox::before,
+.centerBox::after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
 .centerBox>.leftBox ul {
     height: 420px;
     width: 190px;

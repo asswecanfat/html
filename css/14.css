@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.scollerAdv {
+    position: relative;
+    width: 520px;
+    height: 280px;
+    margin: 100px auto;
+    background-color: black;
+}
+
+.scollerAdv img {
+    width: 520px;
+    height: 280px;
+}
+
+.scollerAdv>.left,
+.scollerAdv>.right,
+.scollerAdv>.bottom {
+    position: absolute;
+}
+
+.scollerAdv>.left,
+.scollerAdv>.right {
+    width: 20px;
+    height: 30px;
+    background: rgba(0, 0, 0, .3);
+}
+
+.scollerAdv>.left {
+    top: 50%;
+    margin-top: -15px;
+    text-align: left;
+    line-height: 30px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+.scollerAdv>.right {
+    top: 50%;
+    right: 0;
+    margin-top: -15px;
+    line-height: 30px;
+    text-align: right;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.scollerAdv>.bottom {
+    position: absolute;
+    width: 70px;
+    height: 13px;
+    background-color: pink;
+    left: 50%;
+    margin-left: -35px;
+    bottom: 10px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, .3);
+}
+
+.scollerAdv>.bottom li {
+    float: left;
+    list-style: none;
+    height: 13px;
+    /* width: 8px;height: 8px; */
+}
+
+.scollerAdv>.bottom li {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.scollerAdv>.bottom .selected {
+    background-color: orange;
+    /* cursor: pointer; */
+}

@@ -99,6 +99,7 @@ body {
     margin-right: 30px;
     font-size: 14px;
     color: #666;
+
 }
 
 .nav>.user img {
@@ -106,4 +107,5 @@ body {
     height: 30px;
     width: 30px;
     border-radius: 50%;
+    vertical-align: middle;
 }
