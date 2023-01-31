@@ -53,11 +53,12 @@ div>img {
 
 /* 相对定位会压住其他盒子 */
 .list {
+    position: relative;
     list-style: none;
 }
 
 .list>li {
-    position: relative;
+
     float: left;
     width: 100px;
     height: 100px;
@@ -67,6 +68,62 @@ div>img {
 }
 
 .list>li:hover {
-    z-index: 1;
+    z-index: 177;
     border: 1px solid skyblue;
+}
+
+.vedioBox {
+    width: 300px;
+    height: 70px;
+    margin: 100px auto;
+    background-color: pink;
+    /* text-indent: 2em; */
+}
+
+.vedioBox>img {
+    float: left;
+    height: 60px;
+    width: 120px;
+    margin-right: 10px;
+}
+
+.navList {
+    background-color: pink;
+    text-align: center;
+}
+
+
+.navList>a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: 1px solid black;
+    text-decoration: none;
+    text-align: center;
+    /* line-height: 20px; */
+    color: black;
+}
+
+.navList>div {
+    width: 20px;
+    height: 20px;
+    background-color: #666;
+}
+
+.navList>.pre,
+.navList>.last {
+    width: 100px;
+}
+
+.navList>.selected,
+.navList>.ig {
+    background-color: pink;
+    border: 0;
+    cursor: default;
+}
+
+.navList>input {
+    outline: none;
+    width: 60px;
 }
